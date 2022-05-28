@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-28T07:13:39Z" name="Default suite" finished-at="2022-05-28T07:13:42Z" duration-ms="2538">
+    <groups>
+    </groups>
+    <test started-at="2022-05-28T07:13:39Z" name="Default test" finished-at="2022-05-28T07:13:42Z" duration-ms="2538">
+      <class name="restAPI.PostRequestWithFile">
+        <test-method signature="test1()[pri:0, instance:restAPI.PostRequestWithFile@258d79be]" started-at="2022-05-28T07:13:39Z" name="test1" finished-at="2022-05-28T07:13:42Z" duration-ms="2515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- restAPI.PostRequestWithFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
