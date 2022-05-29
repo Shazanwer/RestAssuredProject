@@ -27,8 +27,13 @@ public class GetRequestWithParams {
 		List<String> names = jspath.get("name");
 		System.out.println(names.get(0));
 		Assert.assertEquals(names.get(0), "Pankaj-Updated");
-		
+
 		String ResponseHeader = response.getHeader("Content-Type");
 		System.out.println(ResponseHeader);
+
+		// Print all the names
+		for (int count = 0; count < names.size(); count++) {
+			System.out.println(names.get(count));
+		}
 	}
 }

@@ -18,7 +18,7 @@ public class GetRequest {
 		String ResponseBody = response.getBody().asString();
 		System.out.println(ResponseBody);
 
-		//Print all the names
+		// Print all the names
 		JsonPath jspath = response.jsonPath();
 		List<String> names = jspath.get("name");
 		for (int count = 0; count < names.size(); count++) {
