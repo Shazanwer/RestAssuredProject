@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiChaining.EndToEndTest">
+      <class name="restBDD.deleteRequestBDD">
         <methods>
           <include name="test1"/>
         </methods>
-      </class> <!-- apiChaining.EndToEndTest -->
+      </class> <!-- restBDD.deleteRequestBDD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
