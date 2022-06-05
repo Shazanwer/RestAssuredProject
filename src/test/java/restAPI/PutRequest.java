@@ -21,7 +21,7 @@ public class PutRequest {
 		MapObj.put("salary", "5000");
 
 		RequestSpecification request = RestAssured.given();
-		Response response = request.contentType(ContentType.JSON).accept(ContentType.JSON).body(MapObj).put("/7");
+		Response response = request.contentType(ContentType.JSON).accept(ContentType.JSON).body(MapObj).put("/15");
 		String ResponseBody = response.getBody().asString();
 		System.out.println(ResponseBody);
 		int ResponseCode = response.getStatusCode();
